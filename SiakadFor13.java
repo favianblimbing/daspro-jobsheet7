@@ -25,6 +25,10 @@ public class SiakadFor13 {
             }
 
         }
+        // menampilkan nilai tertinggi dan terendah
+        System.out.println("Nilai tertinggi: " + tertinggi);
+        System.out.println("Nilai terendah: " + terendah);
+
 
     }
 }
