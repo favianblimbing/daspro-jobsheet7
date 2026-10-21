@@ -29,6 +29,8 @@ public class SiakadFor13 {
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
 
+        //menutup scanner
+        sc.close();
 
     }
 }
