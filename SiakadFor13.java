@@ -8,6 +8,7 @@ public class SiakadFor13 {
 
         // deklarasi variabel
         double nilai, tertinggi = 0, terendah = 100;
+        int lulus = 0, tidakLulus = 0;
 
         // input nilai mahasiswa
         for (int i = 1; i <= 10; i++) {
@@ -24,10 +25,21 @@ public class SiakadFor13 {
                 terendah = nilai;
             }
 
+            // menghitung mahasiswa lulus / tidak lulus (batas 60)
+            if (nilai >= 60) {
+                lulus++;
+            } else {
+                tidakLulus++;
+            }
         }
+
         // menampilkan nilai tertinggi dan terendah
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
+
+        // menampilkan jumlah mahasiswa lulus dan tidak lulus
+        System.out.println("Jumlah mahasiswa lulus: " + lulus);
+        System.out.println("Jumlah mahasiswa tidak lulus: " + tidakLulus);
 
         // menutup scanner
         sc.close();
