@@ -9,7 +9,7 @@ public class SiakadFor13 {
         // deklarasi variabel
         double nilai, tertinggi = 0, terendah = 100;
 
-                // input nilai mahasiswa
+        // input nilai mahasiswa
         for (int i = 1; i <= 10; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + i + ": ");
             nilai = sc.nextDouble();
@@ -29,7 +29,7 @@ public class SiakadFor13 {
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
 
-        //menutup scanner
+        // menutup scanner
         sc.close();
 
     }
