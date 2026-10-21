@@ -6,5 +6,8 @@ public class SiakadFor13 {
 
         Scanner sc = new Scanner(System.in);
 
+        // deklarasi variabel
+        double nilai, tertinggi = 0, terendah = 100;
+
     }
 }
